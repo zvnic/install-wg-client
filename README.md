@@ -12,3 +12,8 @@
 
 ```bash
 chmod +x install_wireguard.sh
+
+### 3. Запуск скрипта
+
+```bash
+./install_wireguard.sh FILE_NAME.conf
