@@ -1,5 +1,14 @@
-# install-wg-client
-Install WireGuard Client
+# WireGuard Installation Script
 
+Этот скрипт предназначен для автоматической установки и настройки WireGuard на сервере, используя указанный файл конфигурации.
+
+## Установка и использование
+
+### 1. Сохранение скрипта
+Сохраните скрипт в файл, например `install_wireguard.sh`.
+
+### 2. Установка прав на выполнение
+Сделайте скрипт исполняемым:
+
+```bash
 chmod +x install_wireguard.sh
-./install_wireguard.sh file_name.conf
